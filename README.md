@@ -22,13 +22,14 @@ In the 1st picture we can see the state of the board being set on the 1st round 
 Same rules apply here as they did in the previous image, except this time we set the amount of rounds to 14.
 ![2nd round](images/kolo2.jpg)
 
-
+The following 3 pictures show progression of the timer as the round goes on. 
 ![Variable time](images/cas1.jpg)
 
 ![Time pass](images/cas2.jpg)
 
 ![Time pass2](images/cas3.jpg)
 
+Variable time pause showcase in setup mode.
 ![Pause 1](images/caspauza1.jpg)
 
 ![Pause 2](images/caspuaza2.jpg)
@@ -66,6 +67,7 @@ This is the base state that the board should appear in. Without any limits/round
 Video:
 [Video link YOUTUBE](https://www.youtube.com/watch?v=pLNbUWPhGSs)
 
+Video showcasing everything our project is capable of. Shows variable numbers and letters, such as S;t;P
 ## References                                                                            
 
 1. [Solution of 07-display-driver as done in school - clock_enable.vhd, cnt_up_down.vhd, hex_7seg.vhd](https://github.com/BaranykMatej/digital-electronics-1/tree/main/07-display_driver/display_driver/display_driver.srcs/sources_1/new)
