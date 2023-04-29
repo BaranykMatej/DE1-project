@@ -63,10 +63,11 @@ This is the base state that the board should appear in. Without any limits/round
 ![Setting state](images/zaklad.jpg)
 
 
-Video:
+### Video:
 [Video link YOUTUBE](https://www.youtube.com/watch?v=pLNbUWPhGSs)
 
 Video showcasing everything our project is capable of. Shows variable numbers and letters, such as S;t;P
+
 ## References                                                                            
 
 1. [Solution of 07-display-driver as done in school - clock_enable.vhd, cnt_up_down.vhd, hex_7seg.vhd](https://github.com/BaranykMatej/digital-electronics-1/tree/main/07-display_driver/display_driver/display_driver.srcs/sources_1/new)
