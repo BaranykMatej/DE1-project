@@ -59,10 +59,9 @@ Instructions:
 6.You can reset and reconfigure the circuit training using the BTNC button on the board.
 7.After resetting, repeat steps 3 to 5.
 
-Photo:
+This is the base state that the board should appear in. Without any limits/rounds set:
 ![Setting state](images/zaklad.jpg)
 
-This is the base state that the board should appear in. Without any limits/rounds set.
 
 Video:
 [Video link YOUTUBE](https://www.youtube.com/watch?v=pLNbUWPhGSs)
