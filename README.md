@@ -49,7 +49,7 @@ First, the input data from the switch goes to the "Input_processing" block, wher
   
   and also manages system reset. The outputs are: three setting numbers, a signal to restart the counter, a signal to stop counting, and a status signal to the display driver.
   
-  Next, the setting signals go to the "Counter" block, which counts: the timer, the number of laps completed and pauses. It sends the current value of the counter to the "Display_driver" for further display on the display, and the number of completed laps is also sent to the "State_selector" block.
+  Next, the setting signals go to the "Counter" block, which counts: the timer, the number of laps completed and pauses. It sends the current value of the counter to the "Display_driver" for further displaying on the display, and the number of completed laps is also sent to the "State_selector" block.
 To display the numbers, the display driver sends the data to the decoder for display on the 7-segment display
 
 The calculation ends when the number of laps completed reaches the number selected on the switches. (The "State_selector" block switches the "COUNT_STARTED" state to "COUNT_FINISHED").
