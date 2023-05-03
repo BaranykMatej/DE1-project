@@ -38,6 +38,15 @@ Variable time and pause showcase in setup mode.
 Source: (project_1/project_1.srcs/sources_1/new/top.vhd)
 TestBench: (project_1/project_1.srcs/sim_1/new/tb_top.vhd)
 
+First, the input data from the switch goes to the "Input_processing" block, where it is transformed for other blocks. The output will then contain three binary numbers: timer duration, pause duration, number of rounds.
+  Then the data goes to the next two blocks to "Display_driver", to display the selected settings, and to the "State_selector" block, this block switches the timer states:
+  "SETTINGS" -> "COUNT_STARTED" -> "COUNT_FINISHED",
+  and also manages system reset. The outputs are: three setting numbers, a signal to restart the counter, a signal to stop counting, and a status signal to the display driver.
+  Next, the setting signals go to the "Counter" block, which counts: the timer, the number of laps completed and pauses. It sends the current value of the counter to the "Display_driver" for further display on the display, and the number of completed laps is also sent to the "State_selector" block.
+To display the numbers, the display driver sends the data to the decoder for display on the 7-segment display
+The calculation ends when the number of laps completed reaches the number selected on the switches. (The "State_selector" block switches the "COUNT_STARTED" state to "COUNT_FINISHED").
+
+
 Put flowchats/state diagrams of your algorithm(s)                                         
 ![Schematic](images/diagram2.jpeg)
 
