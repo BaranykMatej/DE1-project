@@ -13,10 +13,10 @@ Using switches SW0 - SW3 (maximum 16 rounds), set the number of laps. Switches S
 ### Demonstration using pictures:
 In the 1st picture we can see the state of the board being set on the 1st round as: 020S 0101, this means:
 
-- 02: 2 rounds
-- 0S: setup/settings mode
-- 01: pause length (in minutes)
-- 01: round length (in minutes)
+- 02 - 2 rounds
+- 0S - setup/settings mode
+- 01 - pause length (in minutes)
+- 01 - round length (in minutes)
 
 ![1st round](images/kolo1.jpg)
 
@@ -67,13 +67,13 @@ In the picture of simulation we can see how each part of the 7-seg gets lit up. 
 
 Instructions:
 
-1. Connect the Axys A7-50T board to the PC using the provided microUSB cable.
-2. Launch BitStream in the Vivado program.
-3. Use the switches (SW0 - SW15) on the board to set the number of rounds, length of each round, and pause time.
-4. After setting the switches to the desired positions, configured number of rounds, round length, and rest time will be displayed on the screen.
-5. Press the BTNC button (yellow center button) to start the circuit training.
-6. You can reset and reconfigure the circuit training using the BTNC button on the board.
-7. After resetting, repeat steps 3 to 5.
+1.  Connect the Axys A7-50T board to the PC using the provided microUSB cable.
+2.  Launch BitStream in the Vivado program.
+3.  Use the switches (SW0 - SW15) on the board to set the number of rounds, length of each round, and pause time.
+4.  After setting the switches to the desired positions, configured number of rounds, round length, and rest time will be displayed on the screen.
+5.  Press the BTNC button (yellow center button) to start the circuit training.
+6.  You can reset and reconfigure the circuit training using the BTNC button on the board.
+7.  After resetting, repeat steps 3 to 5.
 
 This is the base state that the board should appear in. Without any limits/rounds set:
 ![Setting state](images/zaklad.jpg)
