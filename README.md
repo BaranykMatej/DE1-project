@@ -39,7 +39,7 @@ Source: (project_1/project_1.srcs/sources_1/new/top.vhd)
 TestBench: (project_1/project_1.srcs/sim_1/new/tb_top.vhd)
 
 Put flowchats/state diagrams of your algorithm(s)                                         
-![Schematic](images/diagram.png)
+![Schematic](images/diagram2.jpeg)
 
 ### Component(s) simulation 											
 Write descriptive text and simulation screenshots of your components.
