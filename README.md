@@ -39,7 +39,7 @@ Variable time and pause showcase in setup mode.
 - Source: (project_1/project_1.srcs/sources_1/new/top.vhd)
 - TestBench: (project_1/project_1.srcs/sim_1/new/tb_top.vhd)
 
-Put flowchats/state diagrams of your algorithm(s)                                         
+                                         
 ![Schematic](images/diagram2.jpeg)
 
 First, the input data from the switch goes to the "Input_processing" block, where it is transformed for other blocks. The output will then contain three binary numbers: timer duration, pause duration, number of rounds.
@@ -57,7 +57,6 @@ To display the numbers, the display driver sends the data to the decoder for dis
 The calculation ends when the number of laps completed reaches the number selected on the switches. (The "State_selector" block switches the "COUNT_STARTED" state to "COUNT_FINISHED").
 
 ### Component(s) simulation 											
-Write descriptive text and simulation screenshots of your components.
 ![Simulation](images/sim.png)
 
 
